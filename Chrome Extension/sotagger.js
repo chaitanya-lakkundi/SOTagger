@@ -1,5 +1,4 @@
 const query_url="https://sleepy-taiga-14192.herokuapp.com/db/?Body=";
-// const tags = ["How to and Error", "Setup", "X", "Why not working", "Conceptual", "Code"];
 const tags = ["Error", "Discrepancy", "Implementation", "Learning", "Conceptual", "MWE"];
 
 function get_progress_element(prob) {
@@ -14,22 +13,6 @@ function get_progress_element(prob) {
 
 	return prog;
 }
-
-// function argsort(toSort) {
-// 	for (let i = 0; i < toSort.length; i++) {
-// 		toSort[i] = [toSort[i], i];
-// 	}	
-// 	toSort.sort(function(left, right) {
-// 		return left[0] < right[0] ? -1 : 1;
-// 	});
-
-// 	toSort.sortIndices = [];
-// 	for (let j = 0; j < toSort.length; j++) {
-// 		toSort.sortIndices.push(toSort[j][1]);
-// 		toSort[j] = toSort[j][0];
-// 	}
-// 	return toSort;
-// }
 
 function argsort(test) {
 	var result = [];
@@ -78,7 +61,7 @@ function display(proba, order) {
 
 		if (i == 3) {
 			break;
-
+			// remove break if all 6 topics are to be displayed
 			newtab.append(tag_row);
 			newtab.append(progress_row);
 			// defining new rows
