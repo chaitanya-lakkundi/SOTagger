@@ -1,5 +1,5 @@
 const query_url="https://sleepy-taiga-14192.herokuapp.com/db/?Body=";
-const tags = ["Error", "Discrepancy", "Implementation", "Learning", "Conceptual", "MWE"];
+const tags = ["Discrepancy", "Error", "Implementation", "Learning", "Conceptual", "MWE"];
 
 function get_progress_element(prob) {
 	const prog = document.createElement("div");
