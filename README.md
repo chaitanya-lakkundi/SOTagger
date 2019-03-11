@@ -20,3 +20,9 @@ Note: Loading tags might take upto 20 seconds on first page load. Tags will be l
 
 4. A slider is displayed below every tag depending on the probability of classification.
    MWE – stands for presence of Minimum Working Example (Code)
+   
+## Screenshots
+
+![Syntax Enums](https://github.com/chaitanya-lakkundi/SOTagger/raw/master/screenshots/syntax_enums.png)
+![PHP Spaceship](https://github.com/chaitanya-lakkundi/SOTagger/raw/master/screenshots/php_spaceship.png)
+![SQL PHP](https://github.com/chaitanya-lakkundi/SOTagger/raw/master/screenshots/sql_php.png)
