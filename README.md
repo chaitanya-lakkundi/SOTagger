@@ -21,6 +21,8 @@ SOTagger Plugin is now installed on Google Chrome.
 
 SOTagger Plugin is now installed on Mozilla Firefox.
 
+Note for Mozilla Firefox users: SOTagger is installed as a **Temporary Extension** and hence will be removed after the web browser is closed. 
+
 ## How to Use
 
 1. Navigate to https://stackoverflow.com/
