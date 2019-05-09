@@ -4,7 +4,7 @@
 	"description": "Taggify Stackoverflow",
 	"version": "1.0",
 
-	"permissions": ["https://*/", "http://*/"],
+	"permissions": ["https://sleepy-taiga-14192.herokuapp.com/*"],
 
 	"content_scripts": [{
 		"matches" : ["https://stackoverflow.com/questions/*/*"],
